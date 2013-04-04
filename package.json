@@ -1,0 +1,12 @@
+{
+    "name": "redditviewer",
+    "description": "A 9gag like viewer for r/funny, with keyboard shortcuts and all. So basically, 9gag.",
+    "homepage": "http://example.org",
+    "copyright": "Do Whatever The F*ck You Want licence",
+    "authors": [
+        "Scroph"
+    ],
+    "dependencies": {
+    	"vibe-d": ">=0.7.12"
+    }
+}

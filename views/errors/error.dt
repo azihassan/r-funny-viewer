@@ -1,0 +1,8 @@
+!!! 5
+
+head
+	title Woopsie !
+
+	body
+		h3 Woopsie !
+		p Error #{code} #{message}

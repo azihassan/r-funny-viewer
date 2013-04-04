@@ -1,0 +1,10 @@
+!!! 5
+
+head
+	title 404 Not Found
+	
+
+	body
+		h3 There's nothing to see here
+		img(src = "/img/404.png", alt = "Please disperse !", title = "Please disperse !")
+		p Please disperse

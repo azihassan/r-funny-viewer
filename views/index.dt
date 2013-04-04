@@ -1,0 +1,23 @@
+!!! 5
+html
+	head
+		title r/funny viewer
+		link(rel = "stylesheet", type = "text/css", href = "/css/style.css")
+		<script language = "javascript" type = "application/javascript" src = "/js/jquery.min.js"></script>
+		<script language = "javascript" type = "application/javascript" src = "/js/application.js"></script>
+		
+	body
+		div#header r/funny entries
+		- foreach(entry; data)
+			div.entry
+				<h3><a href = "#{entry.permalink}">#{entry.title}</a></h3>
+				span.info
+					p By #{entry.author}
+					p #{entry.created_at}
+					p #{entry.score} votes
+				
+				<a href = "#{entry.original}">
+					<img src = "#{entry.url}" alt= "Dammit, probably an album." title= "#{entry.url}" /></a>
+				hr()
+		
+		<a href = "/show/#{last}">Next</a>
