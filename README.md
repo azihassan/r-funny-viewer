@@ -7,3 +7,4 @@ This is my first attempt at using D ([vibe.d](http://vibed.org/)) for serving we
 To do :
 * Add a link to previous pages
 * Add 9gag-like keyboard shortcuts
+* Add a demo [soon]
